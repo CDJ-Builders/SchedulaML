@@ -30,7 +30,7 @@ TIERS = {"Light": (4, 7), "Medium": (10, 15), "Heavy": (18, 26)}
 BLOCK_LEN = [1, 2, 3]
 BLOCK_LEN_W = [0.25, 0.45, 0.30]
 P_ONLINE = 0.15
-MEETING_TYPES = ["Project", "Meeting", "Consultation"]
+MEETING_TYPES = ["Project", "Meeting", "Event"]
 MIN_FEASIBLE = 4
 
 

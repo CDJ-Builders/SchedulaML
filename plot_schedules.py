@@ -202,7 +202,7 @@ def draw_scenario(sc, out_path, start_hour, end_hour, dpi):
     for spine in ax.spines.values():
         spine.set_visible(False)
 
-    title = f"Scenario {sc['id']}"
+    title = f"SchedulaML Survey - Scenario {sc['id']}"
     sub = meta_title(sc["meta"])
     fig.suptitle(title, fontsize=13, fontweight="bold", x=0.05, ha="left", y=0.99)
     if sub:
