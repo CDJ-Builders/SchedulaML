@@ -1,9 +1,6 @@
 # Schedula MindLab (SML)
 
 **Schedula MindLab** explores preference-aware machine learning for recommending feasible, personalized meeting slots around university students' weekly class schedules. The system transforms class schedule matrices and survey preference responses into viable candidate meeting windows, extracts rich calendar and behavioral features, and ranks candidates using multi-layer ranking architectures and machine learning estimators.
-
-This repository accompanies the research paper **"Schedula MindLab: Intelligent Scheduling System using Machine Learning"** (Samuel Lennard D. Carmona, Adrian Nate C. Devega, and Jian Jowel T. Jimenez — De La Salle University - Dasmariñas, College of Information and Computer Studies; see [`CDJ_SchedulaML_ACM.pdf`](CDJ_SchedulaML_ACM.pdf)).
-
 ---
 
 ## Table of Contents
@@ -267,19 +264,4 @@ Renders schedule CSVs (wide or long formats) into color-coded schedule PNGs matc
 
 ```bash
 python scripts/plot_schedules.py datasets/sample_scenarios.csv --out schedule_pngs --start-hour 7 --end-hour 22
-```
-
----
-
-## Citation
-
-If you use this codebase, dataset, or methodology in your research, please cite:
-
-```bibtex
-@article{cdj2026schedula,
-  title     = {Schedula MindLab: Intelligent Scheduling System using Machine Learning},
-  author    = {Carmona, Samuel Lennard D. and Devega, Adrian Nate C. and Jimenez, Jian Jowel T.},
-  journal   = {De La Salle University - Dasmari{\~n}as},
-  year      = {2026}
-}
 ```
