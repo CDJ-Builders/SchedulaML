@@ -1,0 +1,14 @@
+{
+  "grid_bounds": "07:00-22:00",
+  "days": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri",
+    "sat"
+  ],
+  "version": "1.1.0",
+  "n_responses": 205,
+  "n_scenarios": 75
+}
